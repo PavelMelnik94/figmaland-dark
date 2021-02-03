@@ -1,0 +1,93 @@
+.promo {
+    position: relative;
+    width: 100%;
+    height: 1675px;
+
+
+
+    &__menu {
+        height: 119px;
+        width: 1097px;
+        display: flex;
+        justify-content: space-evenly;
+
+        &_img {
+            max-height: 78px;
+            max-width: 206px;
+            cursor: pointer;
+        }
+
+        &_items {
+            margin-top: 37.5px;
+            width: 393px;
+            height: 44px;
+            display: flex;
+            justify-content: space-between;
+
+            list-style: none;
+            li {
+               font-size: 16px;
+            }
+        }
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 80px;
+        margin-top: 95px;
+    }
+    &__subtitle {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        font-weight: 500;
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+    }
+    .dashboard-center {
+        position: absolute;
+        width: 711.82px;
+        height: 545.98px;
+        left: calc(50% - 465.82px/2 - 131.92px);
+        top: calc(47% - 429.98px/2 + 76.72px);
+    
+        background: url('../img/promo_bg/dashboard_center.png');
+        transform: rotatey(45deg);
+        transform: rotatex(15deg);
+        // transform: matrix(0.71, -0.54, 0.93, 0.71, 0, 0);
+    }
+    .dashboard-left {
+        position: absolute;
+        width: 711.82px;
+        height: 545.98px;
+        left: calc((28% - 233.265px) - 141.67px);
+        top: calc(64% - 214.99px + 71.31px);
+        background: url('../img/promo_bg/dashboard_left.png');
+        transform: rotatey(45deg);
+        transform: rotatex(15deg);
+    }
+
+    .dashboard-right {
+        position: absolute;
+        width: 729.82px;
+        height: 545.98px;
+        left: calc(28% - 466.53px/2 + 553px);
+        top: calc(64% - 451.48px/2 + 55.47px);
+        background: url('../img/promo_bg/dashboard_right.png');
+        transform: rotatey(45deg);
+        transform: rotatex(15deg);
+    }
+
+    // .shadow__divider {
+    //     width: 100%;
+    //     height: 551px;
+    //     position: absolute;
+    //     left: 0%;
+    //     right: 0%;
+    //     top: 67.1%;
+    //     bottom: 0%;
+    //     background: url('../img/promo_bg/gradient.png');
+    // }
+}
