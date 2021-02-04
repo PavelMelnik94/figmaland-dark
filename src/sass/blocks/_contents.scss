@@ -1,5 +1,5 @@
 .contents {
-    margin-top: 100px;
+    margin: 100px 0  100px 0;
     padding: 50px 199px;
     
     &__title {
@@ -14,5 +14,34 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 30px;
+    }
+    &__items {
+        margin-top: 44px;
+        height: 630px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        &_card {
+            background-color: #fff;
+            width: 476px;
+            height: 624.52px;
+            margin: 0 16.5px 0 16.5px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            &-header {
+                color: #000;
+                font-size: 20px;
+                &_right{
+                    margin-top: 25px;
+                }
+            }
+            &-text {
+                color: grey;
+            }
+        }
     }
 }

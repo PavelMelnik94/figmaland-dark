@@ -1,5 +1,4 @@
 .feature {
-    margin-top: 100px;
     padding: 62px 50px;
     height: 1112px;
 
@@ -56,7 +55,7 @@
             width: 204.49px;
             height: 80px;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: flex-start;
             align-items: center;
             .feature__icon {
                 width: 33px;

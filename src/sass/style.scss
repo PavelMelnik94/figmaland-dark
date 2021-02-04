@@ -9,6 +9,11 @@
 @import 'blocks/buttons';
 @import 'blocks/feature';
 @import 'blocks/contents';
+@import 'blocks/gallery';
+@import 'blocks/Testimonials';
+@import 'blocks/Partners';
+@import 'blocks/banner';
+@import 'blocks/footer';
 
 * {
     font-family: 'Rajdhani', sans-serif;
@@ -20,6 +25,11 @@
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    list-style-position: unset;
 }
 
 body {

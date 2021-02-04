@@ -9,10 +9,21 @@
     margin-top: 33px;
     font-size: 16px;
     cursor: pointer;
+
     &_blue {
         background-color: #4452FE;
         border: none;
         margin-right: 35px;
+        &:hover {
+            color: rgb(219, 216, 216);
+        }
 
     }
+    &-w157{
+        width: 157px;
+    }
+    &-w190 {
+        width: 190px;
+    }
+
 }

@@ -1,0 +1,31 @@
+.Testimonials {
+    &__wrapper {
+        margin-top: 50px;
+        margin-bottom: 150px;
+        display: grid;
+        grid-template-columns: repeat(2, 430px);
+        grid-template-rows: repeat(2, 328px);
+        gap: 20px;
+        justify-content: center;
+    }
+    &__item {
+        padding: 40px;
+        border: 1px solid #fff;
+        border-radius: 15px;
+        display: grid;
+        grid-template-columns: 0.2fr 0.8fr;
+        grid-template-rows: 0.2fr 0.8fr;
+        row-gap: 30px;
+        &_prof {
+            margin-top: -10px;
+            font-weight: 500;
+            font-size: 16px;
+            
+        }
+        &_text {
+            grid-column: 1 / 4;
+        }
+    }
+
+
+}
