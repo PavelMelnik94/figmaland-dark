@@ -1,0 +1,96 @@
+@media (max-width: 576px) {
+    body {
+        overflow: hidden;
+    }
+
+    // * {
+    //     border: 1px solid #000;
+    //   }
+    .container {
+        display: block;
+        margin: 0 auto;
+        // width: 100% !important;
+        padding: 0 15px;
+        height: 100%;
+    }
+
+    .promo {
+        &__menu_items {
+            display: none;
+        }
+
+        &__title {
+            font-size: 52px;
+            line-height: 62px;
+            /* or 119% */
+
+            text-align: center;
+        }
+
+        .dashboard-center {
+            left: calc(50% - 465.82px/2 - -276.08px);
+            top: calc(47% - 429.98px/2 + -39.28px);
+        }
+
+        .dashboard-left {
+            left: calc((28% - 233.265px) - 2.67px);
+            top: calc(64% - 214.99px + -51.69px);
+        }
+
+        .dashboard-right {
+            left: calc(28% - 466.53px/2 + 695px);
+            top: calc(64% - 451.48px/2 + -63.53px);
+        }
+    }
+    .feature {
+        // .container {
+        //     display: block;
+        //     margin: 0 auto;
+        //     // width: 100% !important;
+        //     padding: 0 15px;
+        //     height: 100%;
+        
+        &__title {
+            font-size: 100px;
+            line-height: 62px;
+        }
+        &__wrapper {
+            // width: 1084px;
+            // width: 300px;
+            height: 376px;
+            padding-left: 454px;
+            padding-top: 150px;
+            // margin: 80px 195px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            &_img {
+                width: 376px !important;
+                height: 406px !important;
+                position: relative;
+                margin-left: -367px;
+                margin-bottom: 50px;
+            }
+        }
+        &__img-big {
+            max-width: 325px ;
+            max-height: 320px ;
+        }
+        .feature__img-small {
+            position: absolute;
+            display: inline-block;
+            max-width: 233px; 
+            max-height: 161px; 
+            bottom: 144px !important;
+            right: -48px !important;
+        }
+        &__content {
+            margin-top: -144px;
+            margin-left: -368px;
+        }
+    }
+
+
+
+}

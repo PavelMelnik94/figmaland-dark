@@ -19,9 +19,9 @@
     &__wrapper {
         width: 1088px;
         height: 759px;
-        margin: 80px 195px;
+        margin: 80 0 195px 0;
         display: flex;
-        justify-content: left;
+        justify-content: space-around;
 
         .feature__wrapper_img {
             position: relative;
